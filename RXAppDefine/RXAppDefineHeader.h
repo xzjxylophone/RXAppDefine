@@ -9,6 +9,6 @@
 #ifndef RXAppDefineHeader_h
 #define RXAppDefineHeader_h
 #import "RXDefine.h"
-#import "RXConstString.h"
+
 
 #endif /* RXAppDefineHeader_h */
