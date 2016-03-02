@@ -17,10 +17,32 @@
 // get iphone model
 // http://www.niaogebiji.com/article-4379-1.html
 // don't consider iphone 3GS
+// 将要废弃
 #define RX_IsIPhone4_4s             (RX_Window_Height == 480)
 #define RX_IsIPhone5_5s             (RX_Window_Height == 568)
 #define RX_IsIPhone6_6s             (RX_Window_Height == 667)
 #define RX_IsIPhone6Plus_6sPlus     (RX_Window_Height == 736)
+
+// 各屏幕尺寸
+// http://blog.csdn.net/phunxm/article/details/42174937
+// 3.5 英寸
+#define RX_IsIphone_3_5             (RX_Window_Height == 480)
+// 4.0 英寸
+#define RX_IsIphone_4_0             (RX_Window_Height == 568)
+// 4.7 英寸
+#define RX_IsIphone_4_7             (RX_Window_Height == 667)
+// 5.5 英寸
+#define RX_IsIphone_5_5             (RX_Window_Height == 736)
+
+
+// 当前屏幕的宽度相对于3.5英寸(或者4.0英寸)的比率
+#define RX_Scale_To_3_5_Or_4_0         (RX_Window_Width / 320.0f)
+// 当前屏幕的宽度相对于4.7英寸的比率
+#define RX_Scale_To_4_7                 (RX_Window_Width / 375.0f)
+// 当前屏幕的宽度相对于5.5英寸的比率
+#define RX_Scale_To_5_5                 (RX_Window_Width / 414.0f)
+
+
 
 
 

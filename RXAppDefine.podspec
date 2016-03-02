@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name     = "RXAppDefine"
-  s.version  = "0.3"
+  s.version  = "0.4"
   s.license  = "MIT"
   s.summary  = "RXAppDefine is a base define for app"
   s.homepage = "https://github.com/xzjxylophone/RXAppDefine"
