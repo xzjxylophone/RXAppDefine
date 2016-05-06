@@ -46,24 +46,6 @@
 
 
 
-// set app font
-/*
- // custom font example
- #define k_UI_DefaultFontName        @"FZLTHJW--GB1-0"
- #define k_UI_DefaultFont(a)     [UIFont fontWithName:k_UI_DefaultFontName size:a]
- */
-#ifndef k_UI_DefaultFont
-#define k_UI_DefaultFont(a)     [UIFont systemFontOfSize:a]
-#endif
-
-#define k_UI_Font10     k_UI_DefaultFont(10)
-#define k_UI_Font11     k_UI_DefaultFont(11)
-#define k_UI_Font12     k_UI_DefaultFont(12)
-#define k_UI_Font13     k_UI_DefaultFont(13)
-#define k_UI_Font14     k_UI_DefaultFont(14)
-#define k_UI_Font15     k_UI_DefaultFont(15)
-#define k_UI_Font16     k_UI_DefaultFont(16)
-#define k_UI_Font17     k_UI_DefaultFont(17)
 
 // set app color
 #ifndef k_UI_Color_Line
@@ -73,6 +55,75 @@
 #ifndef k_UI_Color_Background
 #define k_UI_Color_Background       [UIColor whiteColor]
 #endif
+
+// a app have main app color
+#ifndef k_UI_Color_AppRed
+#define k_UI_Color_AppRed           [UIColor redColor]
+#endif
+
+#ifndef k_UI_Color_AppGreen
+#define k_UI_Color_AppGreen           [UIColor greenColor]
+#endif
+
+#ifndef k_UI_Color_AppBlue
+#define k_UI_Color_AppBlue           [UIColor blueColor]
+#endif
+
+// title and content color
+#ifndef k_UI_Color_Title
+#define k_UI_Color_Title           [UIColor blackColor]
+#endif
+
+#ifndef k_UI_Color_Content
+#define k_UI_Color_Content           [UIColor blackColor]
+#endif
+
+
+// set app font
+/*
+ // custom font example
+ #define k_UI_DefaultFontName        @"FZLTHJW--GB1-0"
+ #define k_UI_DefaultFont(a)     [UIFont fontWithName:k_UI_DefaultFontName size:a]
+ */
+
+// DEPRECATED
+#ifndef k_UI_DefaultFont
+#define k_UI_DefaultFont(a)     [UIFont systemFontOfSize:a]
+#endif
+
+#ifndef k_UI_Font
+#define k_UI_Font(a)   [UIFont systemFontOfSize:a]
+#endif
+
+#define k_UI_Font10     k_UI_Font(10)
+#define k_UI_Font11     k_UI_Font(11)
+#define k_UI_Font12     k_UI_Font(12)
+#define k_UI_Font13     k_UI_Font(13)
+#define k_UI_Font14     k_UI_Font(14)
+#define k_UI_Font15     k_UI_Font(15)
+#define k_UI_Font16     k_UI_Font(16)
+#define k_UI_Font17     k_UI_Font(17)
+#define k_UI_Font18     k_UI_Font(18)
+#define k_UI_Font19     k_UI_Font(19)
+#define k_UI_Font20     k_UI_Font(20)
+#define k_UI_Font21     k_UI_Font(21)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

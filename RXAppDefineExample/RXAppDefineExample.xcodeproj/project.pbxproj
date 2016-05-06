@@ -13,6 +13,7 @@
 		58073DCA1C36195B00320A22 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58073DC81C36195B00320A22 /* MainViewController.m */; };
 		58073DCB1C36195B00320A22 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58073DC91C36195B00320A22 /* MainViewController.xib */; };
 		58073DD11C361F8600320A22 /* RXDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 58073DD01C361F8600320A22 /* RXDefine.m */; };
+		C960ED781CDC440F005127A3 /* UIViewController+RXApp.m in Sources */ = {isa = PBXBuildFile; fileRef = C960ED771CDC440F005127A3 /* UIViewController+RXApp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		58073DCE1C361DAE00320A22 /* RXAppDefineHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RXAppDefineHeader.h; sourceTree = "<group>"; };
 		58073DCF1C361F8600320A22 /* RXDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXDefine.h; sourceTree = "<group>"; };
 		58073DD01C361F8600320A22 /* RXDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXDefine.m; sourceTree = "<group>"; };
+		C960ED761CDC440F005127A3 /* UIViewController+RXApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RXApp.h"; sourceTree = "<group>"; };
+		C960ED771CDC440F005127A3 /* UIViewController+RXApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RXApp.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				58073DCE1C361DAE00320A22 /* RXAppDefineHeader.h */,
 				58073DCF1C361F8600320A22 /* RXDefine.h */,
 				58073DD01C361F8600320A22 /* RXDefine.m */,
+				C960ED761CDC440F005127A3 /* UIViewController+RXApp.h */,
+				C960ED771CDC440F005127A3 /* UIViewController+RXApp.m */,
 			);
 			name = RXAppDefine;
 			path = ../RXAppDefine;
@@ -162,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58073DB51C36190B00320A22 /* AppDelegate.m in Sources */,
+				C960ED781CDC440F005127A3 /* UIViewController+RXApp.m in Sources */,
 				58073DCA1C36195B00320A22 /* MainViewController.m in Sources */,
 				58073DD11C361F8600320A22 /* RXDefine.m in Sources */,
 				58073DB21C36190B00320A22 /* main.m in Sources */,

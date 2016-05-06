@@ -9,6 +9,7 @@
 #ifndef RXAppDefineHeader_h
 #define RXAppDefineHeader_h
 #import "RXDefine.h"
+#import "UIViewController+RXApp.h"
 
 
 #endif /* RXAppDefineHeader_h */
