@@ -15,7 +15,7 @@
 {
     id result = objc_getAssociatedObject(self, @"rx_backBarButtonItem");
     if (result == nil) {
-        [self rx_initBBI];
+        [self __private_initBarButtonItem];
         return self.rx_backBarButtonItem;
     } else {
         return result;
@@ -32,7 +32,7 @@
 {
     id result = objc_getAssociatedObject(self, @"rx_cancelBarButtonItem");
     if (result == nil) {
-        [self rx_initBBI];
+        [self __private_initBarButtonItem];
         return self.rx_cancelBarButtonItem;
     } else {
         return result;
@@ -48,7 +48,7 @@
 {
     id result = objc_getAssociatedObject(self, @"rx_noneBarButtonItem");
     if (result == nil) {
-        [self rx_initBBI];
+        [self __private_initBarButtonItem];
         return self.rx_noneBarButtonItem;
     } else {
         return result;
@@ -101,7 +101,7 @@
 
 
 
-- (void)rx_initBBI
+- (void)__private_initBarButtonItem
 {
     self.rx_backBarButtonItem = [self barButtonItemWithImageName:@"icon_back" target:self action:@selector(rx_backBarButtonItemAction:)];
     self.rx_cancelBarButtonItem = [self barButtonItemWithImageName:@"icon_cancel" target:self action:@selector(rx_cancelBarButtonItemAction:)];
