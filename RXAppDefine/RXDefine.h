@@ -44,19 +44,42 @@
 
 
 
+/*
+ 
+ 颜色部分:
+ 线的颜色
+ 界面的背景颜色
+ 程序的主色调颜色(导航栏颜色), 例如微信的主色调是类似于一种黑色
+ 程序中所说的,红绿蓝等等其他颜色
+ 
+ 
+ 字体部分:
+ 主要给一个字体的字符串名称fontName
+ 
+ */
 
 
+#pragma mark - Color Set
 
 // set app color
+
+// line color
 #ifndef k_UI_Color_Line
 #define k_UI_Color_Line             [UIColor grayColor]
 #endif
 
+// background color
 #ifndef k_UI_Color_Background
 #define k_UI_Color_Background       [UIColor whiteColor]
 #endif
 
-// a app have main app color
+// app main color
+#ifndef k_UI_Color_MainColor
+#define k_UI_Color_MainColor        [UIColor blackColor]
+#endif
+
+
+// some system color to custom color
 #ifndef k_UI_Color_AppRed
 #define k_UI_Color_AppRed           [UIColor redColor]
 #endif
@@ -79,6 +102,8 @@
 #endif
 
 
+
+#pragma mark - Font Set
 // set app font
 /*
  // custom font example
@@ -95,6 +120,11 @@
 #define k_UI_Font(a)   [UIFont systemFontOfSize:a]
 #endif
 
+
+
+#define k_UI_Font7      k_UI_Font(7)
+#define k_UI_Font8      k_UI_Font(8)
+#define k_UI_Font9      k_UI_Font(9)
 #define k_UI_Font10     k_UI_Font(10)
 #define k_UI_Font11     k_UI_Font(11)
 #define k_UI_Font12     k_UI_Font(12)
@@ -107,6 +137,9 @@
 #define k_UI_Font19     k_UI_Font(19)
 #define k_UI_Font20     k_UI_Font(20)
 #define k_UI_Font21     k_UI_Font(21)
+#define k_UI_Font22     k_UI_Font(22)
+#define k_UI_Font23     k_UI_Font(23)
+#define k_UI_Font24     k_UI_Font(24)
 
 
 
