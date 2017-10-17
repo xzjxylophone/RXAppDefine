@@ -114,7 +114,13 @@
 
 
 
-
+- (void)kksklglsdklg
+{
+    NSDictionary *infoPlist = [[NSBundle mainBundle] infoDictionary];
+    NSArray *array = [infoPlist valueForKeyPath:@"CFBundleIcons.CFBundlePrimaryIcon.CFBundleIconFiles"];
+    NSString *icon = array.lastObject;
+    NSLog(@"icon:%@", icon);
+}
 
 
 
